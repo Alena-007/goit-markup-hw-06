@@ -480,8 +480,12 @@
                         <b class="subscribe-title">Подпишитесь на рассылку</b>
                         <form class="subscribe-form">
                             <label class="subscribe-field">
-                                <input type="text" class="subscribe-input" name="email" />
-                                <span class="subscribe-label">E-mail</span>
+                                <input
+                                    type="text"
+                                    class="subscribe-input"
+                                    name="email"
+                                    placeholder="E-mail"
+                                />
                             </label>
                             <button class="subscribe-btn" type="submit">
                                 Подписаться
@@ -534,6 +538,13 @@
                             placeholder="Введите текст"
                         ></textarea>
                     </div>
+                    <label class="checkbox-label">
+                        <input class="checkbox" type="checkbox" name="policy" value="policy" />
+                        <svg class="checkbox-icon" width="16" height="15">
+                            <use href="./images/icons/sprite.svg#check"></use></svg
+                        >Соглашаюсь с рассылкой и принимаю
+                        <a class="checkbox-link link" href="">Условия договора</a>
+                    </label>
                 </form>
             </div>
         </div>

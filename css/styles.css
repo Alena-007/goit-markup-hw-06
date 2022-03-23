@@ -708,6 +708,7 @@ img {
 }
 
 .subscribe-input {
+    padding: 16px;
     margin-right: 12px;
     width: 358px;
     height: 50px;
@@ -862,6 +863,7 @@ img {
 
 .modal-textarea {
     padding: 12px 16px;
+    margin-bottom: 20px;
     width: 448px;
     height: 120px;
     font-weight: 400;
@@ -877,4 +879,25 @@ img {
     color: rgba(117, 117, 117, 0.5);
 }
 
-/* ========= END MODAL-FORM ========= */
+.checkbox-label {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.checkbox-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration-line: underline;
+    color: #2196f3;
+}
+
+.checkbox-icon {
+    fill: #fff;
+}
+
+.checkbox-icon/* ========= END MODAL-FORM ========= */;
