@@ -80,6 +80,7 @@ img {
 /* ========= START COMPONENTS ========= */
 .title {
     margin-bottom: 50px;
+
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -111,6 +112,7 @@ img {
     align-items: center;
     width: 44px;
     height: 44px;
+
     background-color: #fff;
     border-radius: 50%;
 
@@ -123,6 +125,7 @@ img {
     align-items: center;
     width: 44px;
     height: 44px;
+
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
 
@@ -214,11 +217,13 @@ img {
     position: absolute;
     left: 0;
     bottom: 0;
+
     content: '';
     display: block;
     width: 100%;
     height: 4px;
-    background: #2196f3;
+
+    background: var(--primary-accent-color);
     border-radius: 2px;
 }
 
@@ -231,6 +236,7 @@ img {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -265,6 +271,7 @@ img {
     align-items: center;
     padding-top: 32px;
     padding-bottom: 32px;
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -301,6 +308,7 @@ img {
 
 .hero-title {
     margin-bottom: 30px;
+
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -312,16 +320,19 @@ img {
 .hero-btn {
     min-width: 200px;
     padding: 10px 32px;
+
     background-color: var(--primary-accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    border: none;
+    cursor: pointer;
+
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
     color: var(--primary-text-color-theme-dark);
-    cursor: pointer;
 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -358,12 +369,14 @@ img {
     width: 270px;
     height: 120px;
     margin-bottom: 30px;
-    background: #f5f4fa;
+
+    background: var(--secondary-background-color-light);
     border-radius: 4px;
 }
 
 .benefits-subtitle {
     margin-bottom: 10px;
+
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -405,15 +418,17 @@ img {
     position: absolute;
     bottom: 0;
     padding: 27px 10px;
+    width: 370px;
+    height: 70px;
+
     font-weight: 700;
     font-size: 14px;
     text-align: center;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #ffffff;
-    width: 370px;
-    height: 70px;
+    color: var(--primary-text-color-theme-dark);
+
     background: rgba(47, 48, 58, 0.8);
 }
 
@@ -432,6 +447,7 @@ img {
 .team-item {
     margin-bottom: 30px;
     flex-basis: calc((100% - 90px) / 4);
+
     background-color: var(--primary-background-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -452,6 +468,7 @@ img {
 
 .team-title {
     margin-bottom: 10px;
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -461,6 +478,7 @@ img {
 
 .team-text {
     margin-bottom: 16px;
+
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
@@ -493,6 +511,7 @@ img {
     justify-content: center;
     width: 170px;
     height: 92px;
+
     border: 1px solid #afb1b8;
     border-radius: 4px;
     color: #afb1b8;
@@ -503,7 +522,7 @@ img {
 .clients-link:hover,
 .clients-link:focus {
     fill: var(--primary-accent-color);
-    border: 1px solid #2196f3;
+    border: 1px solid var(--primary-accent-color);
 }
 
 .clients-link:hover .clients-icon,
@@ -527,6 +546,7 @@ img {
 
 .filter-projects-btn {
     padding: 6px 22px;
+
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -534,6 +554,7 @@ img {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-text-color-theme-light);
+
     background-color: var(--secondary-background-color-light);
     border-radius: 4px;
     border-style: none;
@@ -595,12 +616,13 @@ img {
     height: 100%;
     top: 0;
     padding: 63px 24px;
+
     background: rgba(33, 150, 243, 0.9);
     font-weight: 400;
     font-size: 18px;
     line-height: 1.56;
     letter-spacing: 0.03em;
-    color: #ffffff;
+    color: var(--primary-text-color-theme-dark);
 
     opacity: 0;
     transform: translateY(100%);
@@ -683,24 +705,25 @@ img {
 
 .social-title {
     margin-bottom: 20px;
+
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #ffffff;
+    color: var(--primary-text-color-theme-dark);
 }
 
 .subscribe-title {
     display: block;
     margin-bottom: 20px;
+
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
-    color: #ffffff;
+    color: var(--primary-text-color-theme-dark);
 }
 
 .subscribe-field {
@@ -712,35 +735,36 @@ img {
     margin-right: 12px;
     width: 358px;
     height: 50px;
-    background-color: transparent;
 
+    background-color: transparent;
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
-    color: #fff;
+    color: var(--primary-text-color-theme-dark);
 }
 
 .subscribe-label {
     position: absolute;
     top: 0;
     left: 16px;
+
     font-weight: 400;
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: 0.03em;
-
     color: rgba(255, 255, 255, 0.6);
 }
 
 .subscribe-btn {
     min-width: 200px;
-    height: 50px;
     padding: 10px;
+
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
-    color: #ffffff;
-    background: #2196f3;
+    color: var(--primary-text-color-theme-dark);
+
+    background: var(--primary-accent-color);
     border-radius: 4px;
     border-style: none;
     cursor: pointer;
@@ -788,7 +812,7 @@ img {
 
     width: 528px;
     height: 581px;
-    background-color: #ffffff;
+    background-color: var(--primary-background-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
@@ -802,16 +826,24 @@ img {
     display: flex;
     margin-left: auto;
     padding: 8px;
+
     border: none;
-    background-color: #ffffff;
+    background-color: var(--primary-text-color-theme-dark);
     cursor: pointer;
+}
+
+.modal-btn:hover .modal-icon,
+.modal-btn:focus .modal-icon {
+    fill: var(--primary-accent-color);
 }
 
 .modal-icon {
     padding: 6px;
     text-align: center;
+
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* ========= END MODAL ========= */
@@ -825,12 +857,13 @@ img {
 .modal-form-title {
     display: block;
     margin-bottom: 12px;
+
     font-weight: 700;
     font-size: 20px;
     line-height: 1.15;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--primary-text-color-theme-light);
 }
 .modal-field {
     position: relative;
@@ -840,25 +873,44 @@ img {
 
 .modal-label {
     margin-bottom: 4px;
+
     font-weight: 400;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.01em;
-    color: #757575;
+    color: var(--secondary-text-color-theme-light);
 }
 
 .modal-input {
+    padding-left: 40px;
     width: 448px;
     height: 40px;
     margin-bottom: 10px;
+
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-icon {
     position: absolute;
-    top: 40%;
+    top: 42%;
     left: 12px;
+
+    fill: var(--primary-text-color-theme-light);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-input:hover,
+.modal-input:focus,
+.modal-textarea:hover,
+.modal-textarea:focus {
+    border: 1px solid var(--primary-accent-color);
+}
+
+.modal-input:hover + .form-icon,
+.modal-input:focus + .form-icon {
+    fill: var(--primary-accent-color);
 }
 
 .modal-textarea {
@@ -866,13 +918,16 @@ img {
     margin-bottom: 20px;
     width: 448px;
     height: 120px;
+
     font-weight: 400;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.01em;
+
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     resize: none;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-textarea::placeholder {
@@ -880,24 +935,81 @@ img {
 }
 
 .checkbox-label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--secondary-text-color-theme-light);
 }
 
 .checkbox-link {
+    margin-left: 4px;
+
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     text-decoration-line: underline;
-    color: #2196f3;
+    color: var(--primary-accent-color);
+}
+
+.checkbox {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0000);
+    overflow: hidden;
 }
 
 .checkbox-icon {
-    fill: #fff;
+    margin-right: 8px;
+    fill: none;
+
+    border: 2px solid var(--primary-text-color-theme-light);
+    border-radius: 2px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.checkbox-icon/* ========= END MODAL-FORM ========= */;
+.checkbox:checked + .checkbox-icon {
+    background-color: var(--primary-accent-color);
+    border: none;
+    background-size: contain;
+    background-origin: border-box;
+}
+
+.form-btn {
+    min-width: 200px;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+
+    background-color: var(--primary-accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-btn:hover,
+.form-btn:focus {
+    background-color: var(--secondary-accent-color);
+}
+/* ========= END MODAL-FORM ========= */ ;
